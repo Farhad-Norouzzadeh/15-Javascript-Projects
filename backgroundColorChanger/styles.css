@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'coming';
+    src: url('./ComingSoon-Regular.ttf');
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'coming';
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root{
+    --background : lightgreen;
+    --btn-color: beige;
+}
+
+.container{
+    width: 900px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.sub-container{
+    background-color: rgb(6, 10, 9);
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid yellowgreen;
+    border-radius:2rem ;
+    -webkit-border-radius:2rem ;
+    -moz-border-radius:2rem ;
+    -ms-border-radius:2rem ;
+    -o-border-radius:2rem ;
+}
+.sub-container > *{
+    margin: 10px 0px;
+}
+
+.gbtn {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: aqua;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.result{
+    font-size: 3rem;
+}
+.hr{
+    /* background-color: wheat; */
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'coming';
+    src: url('./ComingSoon-Regular.ttf');
+}
+
+:root{
+    --lightGreen:#13d613 ;
+    --lightBlue: #6bc7fc;
+    --red: #ee4444;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'coming';
+}
+.container{
+    
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.counter-container{
+    background-color: beige;
+    width: 900px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.counter-div{
+    background-color: var(--lightBlue);
+    width: 25rem;
+    height: 20rem;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+}
+
+.counter-div > *{
+    margin: 1.5rem;
+}
+
+.counter {
+    font-size: 3rem;
+}
+
+.buttons > button{
+    padding: 0.5rem;
+    width: 6.5rem;
+    border-radius: 1rem;
+    border:none;
+    -webkit-border-radius:1rem;
+    -moz-border-radius:1rem;
+    -ms-border-radius:1rem;
+    -o-border-radius:1rem;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.add{
+    background-color: var(--lightGreen);
+}
+
+.subtract{
+    background-color: var(--red);
+}

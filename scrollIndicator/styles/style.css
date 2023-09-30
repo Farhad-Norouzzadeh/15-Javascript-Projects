@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir.eot");
+  src: url("../fonts/vazir.ttf") format("truetype"),
+    url("../fonts/vazir.woff2") format("woff2"),
+    url("../fonts/vazir.woff") format("woff");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "vazir";
+  direction: rtl;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+header h2{
+  padding: 20px 0px;
+  font-size: 3rem;
+}
+
+header .progress {
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+}
+
+header .progress .progress-bar{
+  width: 0%;
+  height: 10px;
+  background: linear-gradient(to right , rgb(255, 0, 234) , red);
+}
+
+section {
+  margin-top: 150px;
+  padding: 0 100px;
+}
+
+section p {
+  font-size: 1.5rem;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 50px;
+}

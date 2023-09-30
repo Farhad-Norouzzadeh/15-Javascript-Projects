@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#">محصولات</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="">تماس با ما</a></li>
+                </ul>
+                <a href="#" class="logo">toplearn</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="banner">
+            <div class="image-box">
+                <img src="./image/1.jpg" class="active" alt="this is first image">
+                <img src="./image/2.jpg" alt="this is second image">
+                <img src="./image/3.jpg" alt="this is the third image">
+            </div>
+            <ul class="controls">
+                <li class="btn" onclick="prevImg()"><i class="fas fa-angle-left"></i></li>
+                <li class="btn" onclick="nextImg()"><i class="fas fa-angle-right"></i></li>
+            </ul>
+        </div>
+    </section>
+    <script src="./js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

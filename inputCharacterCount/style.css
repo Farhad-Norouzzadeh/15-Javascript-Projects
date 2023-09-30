@@ -1,0 +1,48 @@
+@font-face{
+    font-family: 'coding';
+    src: url('./ComingSoon-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'coding';
+}
+.container{
+    background-color: beige;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.frame{
+    background-color: lightblue;
+    padding: 20px;
+    width: 350px;
+    height: 220px;
+    text-align: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.billboard{
+    margin: 20px 0;
+
+}
+.counter{
+    margin: 0px 0px 20px 0px ;
+}
+.input{
+    padding: 15px;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+    width: 250px;
+    text-align: center;
+}

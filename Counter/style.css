@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'coming';
+    src: url('./ComingSoon-Regular.ttf');
+}
+
+
+:root{
+    --white : #fff;
+    --black : #000;
+    --blue : #31326f;
+    --light-blue : #2020ef;
+    --color-primary : #9d0191;
+    --grey : rgb(211, 210, 210);
+    --dark-grey : #222831;
+    --light-green : #34fa7d;
+    --light-red : #fb4d18;
+    --light-grey : rgb(159, 157, 157) ;
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'coming';
+}
+
+html{
+    font-size: 1.5rem;
+}
+
+body{
+    background-color: rgb(7, 2, 34);
+}
+
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+} 
+
+p{
+    font-size: 1.6rem;
+}
+
+img{
+    width:100%;
+}
+
+
+.counter-div{
+    border: 5px solid aquamarine;
+    border-radius: 1rem;
+    background-color: var(--grey);
+    width:20rem;
+    padding: 0.5rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    text-align: center;
+}
+
+
+.counter-div > *{
+    margin-top: 15px;
+}
+
+.buttons button{
+    text-align: center;
+    border: 2px solid black;
+    font-size: 0.7rem;
+    padding: 0.4rem;
+    width: 120px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 0.4rem;
+}
+
+hr{
+    background-color: lightblue;
+    height: 2px;
+    border-radius: 3px;
+}
+
+.subtract {
+    background-color: var(--light-red);
+    
+}
+
+.add{
+    background-color: var(--light-green);
+}
+
+.reset {
+    background-color: var(--light-grey);
+}
+
+.count{
+    font-size: 2rem;
+}

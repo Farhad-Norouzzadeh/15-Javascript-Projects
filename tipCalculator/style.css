@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'comingSoon';
+    src: url(./ComingSoon-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+body{
+    background-color: #444;
+}
+.container{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    font-family: 'comingSoon';
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calc{
+    border: 3px solid white ;
+    width: 550px;
+    border-radius: 15px ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
+    background-color: blueviolet;
+}
+h2{
+    color: antiquewhite;
+    font-size: 2rem;
+    background-color: orchid;
+    border-radius: 0.5rem 0.5rem 0px 0px  ;
+    -webkit-border-radius: 0.5rem 0.5rem 0px 0px  ;
+    -moz-border-radius: 0.5rem 0.5rem 0px 0px  ;
+    -ms-border-radius: 0.5rem 0.5rem 0px 0px  ;
+    -o-border-radius: 0.5rem 0.5rem 0px 0px  ;
+}
+form>*{
+    padding: 10px;
+}
+hr{
+    height: 2px;
+    padding: 0;
+}
+.bill-div{
+    display: flex;
+    justify-content: space-between;
+}
+.rateS-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-input{
+    width: 16rem;
+    text-align:center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    font-family: 'comingSoon';
+}
+.ser-sel{
+    text-align: center;
+    width: 16rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'comingSoon';
+}
+.btn-cal{
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 15rem;
+    color: white;
+    font-family: 'comingSoon';
+    background-color: rgb(5, 162, 110);
+    padding: 10px;
+}
+.btn-cal:hover{
+    background-color: rgb(10, 149, 181);
+    color: black;
+}
